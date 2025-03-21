@@ -8,6 +8,7 @@ const Reveal = ({ children, width = 'fit-content' }) => {
     const isInView = useInView(ref, { once: true })
 
     const mainControls = useAnimation()
+    console.log(isInView)
 
     useEffect(() => {
         if (isInView) {

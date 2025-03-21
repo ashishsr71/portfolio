@@ -11,26 +11,32 @@ import {
   DiGithubBadge,
 } from "react-icons/di"
 import Reveal from "./Reveal"
+import { SiNextdotjs, SiTailwindcss,SiReactrouter, SiExpress  } from "react-icons/si";
+import { TbBrandRedux } from "react-icons/tb";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 const skills = [
     {
       category: 'Frontend',
-      technologies: [
-        { name: 'HTML', icon: <DiHtml5 className='text-orange-600' /> },
-        { name: 'CSS', icon: <DiCss3 className='text-blue-600' /> },
-        { name: 'Sass', icon: <DiSass className='text-pink-600' /> },
-        { name: 'Bootstrap', icon: <DiBootstrap className='text-purple-600' /> },
+      technologies: [{ name: 'React', icon: <DiReact className='text-blue-500' /> },
+        { name: 'React-Router', icon: <SiReactrouter className='text-orange-600' /> },
+        { name: 'Redux', icon: <TbBrandRedux className='text-blue-600' /> },
+        { name: 'Next js', icon: <SiNextdotjs className='text-white-500' /> },
+        { name: 'Tailwind', icon: <SiTailwindcss className='text-blue-600' /> },
         { name: 'JavaScript', icon: <DiJavascript1 className='text-yellow-500' /> },
-        { name: 'React', icon: <DiReact className='text-blue-500' /> },
+        ,
       ],
     },
     {
-      category: 'Fullstack',
+      category: 'Backend',
       technologies: [
         { name: 'Node Js', icon: <DiNodejsSmall className='text-green-500' /> },
         { name: 'MongoDB', icon: <DiMongodb className='text-green-600' /> },
-        { name: 'React', icon: <DiReact className='text-blue-500' /> },
+        { name: 'Express js', icon: < SiExpress  className='text-green-500' /> },
         { name: 'GitHub', icon: <DiGithubBadge className='text-gray-600' /> },
+        { name: 'Postgresql', icon: <BiLogoPostgresql className='text-blue-900' /> },
+        { name: 'Next js', icon: <SiNextdotjs className='text-white-900' /> },
+        
       ],
     },
   ]

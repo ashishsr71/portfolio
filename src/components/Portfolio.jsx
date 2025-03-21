@@ -20,7 +20,7 @@ const projects = [
     {
       img: project2,
       title: "Project #2",
-      description: "A fullstack application built with Node.js and MongoDB.",
+      description: "A fullstack application built with Mern stack ,Audio conferencing, Stories , Posts , Server-sent-events ,Websockets ,Cloudinary , Video-calling",
       links: {
         site: "#",
         github: "#",

@@ -1,58 +1,59 @@
 import React from 'react';
-import project1 from "../assets/project1.png"
-import project2 from "../assets/project2.png"
-import project4 from "../assets/project4.png"
+
 import project5 from "../assets/project5.png"
 import project6 from "../assets/project6.png"
 import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
-
+import one from "../assets/1.png"
+import project from "../assets/2.png"
+import project0 from "../assets/3.jpg"
+import project9 from "../assets/4.png"
 const projects = [
     {
-      img: project1,
+      img: project,
       title: "Project #1",
-      description: "UI for frontend development using React.",
+      description: "Fullstack application for documents built in mern stack ,editing, realtime-collaboration ,Organization feature, multiple format saving ",
       links: {
-        site: "#",
-        github: "#",
+        site: "https://docs-app-8l42.onrender.com",
+        github: "https://github.com/ashishsr71/docs-app",
       },
     },
     {
-      img: project2,
+      img: one,
       title: "Project #2",
-      description: "A fullstack application built with Mern stack ,Audio conferencing, Stories , Posts , Server-sent-events ,Websockets ,Cloudinary , Video-calling",
+      description: "A fullstack application for built with Mern stack ,Audio conferencing, Stories , Posts , Server-sent-events ,Websockets ,Cloudinary , Video-calling",
       links: {
-        site: "#",
-        github: "#",
+        site: "https://social-threads-mgts.onrender.com",
+        github: "https://github.com/ashishsr71/social-threads",
       },
     },
     {
-      img: project4,
+      img: project0,
       title: "Project #3",
       description: "An e-commerce platform with various features.",
       links: {
-        site: "#",
+        site: "https://e-commerce2-1.onrender.com",
         github: "#",
       },
     },
     {
-      img: project5,
+      img: project9,
       title: "Project #4",
-      description: "A mobile-friendly application using React Native.",
+      description: "A mobile-friendly application using React and firebase for managing library and village memories , exam results , selections and admin controls  for updating data .",
       links: {
-        site: "#",
+        site: "https://dalanwas-frontend.onrender.com",
         github: "#",
       },
     },
-    {
-      img: project6,
-      title: "Project #5",
-      description: "A data visualization project using D3.js and other libraries.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
+    // {
+    //   img: project6,
+    //   title: "Project #5",
+    //   description: "A data visualization project using D3.js and other libraries.",
+    //   links: {
+    //     site: "#",
+    //     github: "#",
+    //   },
+    // },
   ]
 
 const Portfolio = () => {

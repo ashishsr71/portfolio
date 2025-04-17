@@ -11,7 +11,7 @@ import project9 from "../assets/4.png"
 const projects = [
     {
       img: project,
-      title: "Project #1",
+      title: "Docs-app",
       description: "Fullstack application for documents built in mern stack ,editing, realtime-collaboration ,Organization feature, multiple format saving ",
       links: {
         site: "https://docs-app-8l42.onrender.com",
@@ -20,7 +20,7 @@ const projects = [
     },
     {
       img: one,
-      title: "Project #2",
+      title: "Social-threads",
       description: "A fullstack application for built with Mern stack ,Audio conferencing, Stories , Posts , Server-sent-events ,Websockets ,Cloudinary , Video-calling",
       links: {
         site: "https://social-threads-mgts.onrender.com",
@@ -29,7 +29,7 @@ const projects = [
     },
     {
       img: project0,
-      title: "Project #3",
+      title: "Ecommerce",
       description: "An e-commerce platform with various features.",
       links: {
         site: "https://e-commerce2-1.onrender.com",
@@ -38,7 +38,7 @@ const projects = [
     },
     {
       img: project9,
-      title: "Project #4",
+      title: "Village-gallery",
       description: "A mobile-friendly application using React and firebase for managing library and village memories , exam results , selections and admin controls  for updating data .",
       links: {
         site: "https://dalanwas-frontend.onrender.com",

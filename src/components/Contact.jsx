@@ -12,7 +12,8 @@ const Contact = () => {
                 <div className="text-gray-300 my-3">
                     <h3 className="text-4xl font-semibold mb-5">About <span>Me</span></h3>
                     <p className="text-justify leading-7 w-11/12 mx-auto">
-                        Contact me using this contact section
+                    Hardworking and passionate job seeker with strong organizational skills eager to secure an entry-level full stack developer position. Ready to help the team achieve company goals.
+
                     </p>
                 </div>
 

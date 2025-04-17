@@ -6,22 +6,22 @@ const experiences = [
     {
         company: 'Javascript',
         period: '2024 janurary',
-        description: 'Udemy',
+        description: 'Udemy : Completed javascript certification from Udemy',
       },
       {
         company: 'React js',
         period: '2024 -March',
-        description: 'Codprog.com',
+        description: 'Codprog.com : Completed React js Certification from Codprog.com ',
       },
       {
         company: 'fullStack',
         period: '2024 -September ',
-        description: '100x Devs',
+        description: '100x Devs : completed fullstack certification from 100xdevs ',
       },
       {
         company: 'Projects',
         period: 'current',
-        description: 'Building projects',
+        description: 'Building projects :still building projects to get hands on experience',
       },
 ]
 
@@ -30,7 +30,7 @@ const experiences = [
 const Experience = () => {
   return (
     <div className='p-8 max-w-[600px] mx-auto'>
-        <h1 className='text-4xl text-gray-200 font-bold text-center mb-12'>Experience</h1>
+        <h1 className='text-4xl text-gray-200 font-bold text-center mb-12'>Timeline</h1>
         <motion.div
         className='space-y-8'
         initial="hidden"

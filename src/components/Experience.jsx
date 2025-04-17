@@ -4,24 +4,24 @@ import Reveal from './Reveal'
 
 const experiences = [
     {
-        company: 'First Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
+        company: 'Javascript',
+        period: '2024 janurary',
+        description: 'Udemy',
       },
       {
-        company: 'Second Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
+        company: 'React js',
+        period: '2024 -March',
+        description: 'Codprog.com',
       },
       {
-        company: 'Third Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
+        company: 'fullStack',
+        period: '2024 -September ',
+        description: '100x Devs',
       },
       {
-        company: 'Fourth Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
+        company: 'Projects',
+        period: 'current',
+        description: 'Building projects',
       },
 ]
 
